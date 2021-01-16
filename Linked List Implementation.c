@@ -12,7 +12,7 @@ int main()
     while(choice){
     newnode = (struct node*) malloc(sizeof(struct node));
 
-        printf("Enter data:\n");
+        printf("Enter data  :\n");
         scanf("%d",&newnode->data);
         newnode->next=0;
         if(head==0)
